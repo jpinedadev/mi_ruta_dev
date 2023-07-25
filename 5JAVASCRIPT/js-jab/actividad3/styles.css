@@ -1,0 +1,41 @@
+body{
+  font-family:'Monserat',sans-serif;
+  text-align:center;
+}
+
+button{
+  padding:5px;
+  margin:5px 3px 12px;
+  outline:none;
+  cursor:pointer;
+  border-radius:5px;
+  border:1px solid #1162ac;
+  background-color:#1162ac;
+  color:#fff;
+}
+button:hover{
+  cursor:pointer;
+}
+
+input{
+  padding:5px 10px;
+  border-radius:5px;
+  outline:none;
+  font-size:1.4em;
+  border:1px solid dotted #DC143C;
+  color:#DC143C;
+  font-family:'Monserat'sans-serif;
+}
+
+#saludo{
+  margin-left:7px;
+  font-size:1.2em;
+  color:#1162AC;
+}
+
+
+
+
+
+
+

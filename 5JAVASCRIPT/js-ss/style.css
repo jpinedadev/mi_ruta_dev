@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #a9a9a9;
+    color:#ffc000;
+    padding:15px;
+}
+header{
+    text-align: center;
+    padding:10px;
+}
+
+section{
+    margin:0 auto;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 20px 5px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.container img{
+    width: 100%;
+    opacity: 1;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+@media (min-width: 768px){
+   section{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 80%;
+        margin:0 auto;
+        border-radius:5px;
+        background-color:#f5f5f5;
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   }
+
+    img:hover{
+        cursor:pointer;
+        opacity: 0.8;
+    }
+    .container{
+        margin: 5px;
+    }
+}

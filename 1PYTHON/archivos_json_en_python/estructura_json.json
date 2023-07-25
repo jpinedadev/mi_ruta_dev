@@ -1,0 +1,12 @@
+{
+  "tamano": "mediana",
+  "precio": 15,67,
+  "toppings": ["champinones","pepperoni","albaca"],
+  "queso_extra":false,
+  "delivery":true,
+  "cliente":{
+    "nombre":"Jane Doe",
+    "telefono":null,
+    "correo":"janedoe@email.com"
+  }
+}

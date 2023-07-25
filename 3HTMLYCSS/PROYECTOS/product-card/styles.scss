@@ -1,0 +1,115 @@
+/*---Fonts---*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+/*
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/*---Colors---*/
+//Primary
+$dark-cyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
+//Neutral
+$very-dark-blue: hsl(212, 21%, 14%);
+$dark-grayish-blue: hsl(228, 12%, 48%);
+$white: hsl(0, 0%, 100%);
+
+@mixin center{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.container-fluid{
+	background-color:$cream;
+	padding: 1rem;
+	color: $dark-grayish-blue;
+	.cardo-container{
+		@include center;
+		flex-direction: column;
+		padding: 0;
+		.cardo-img{ 
+			margin: 0;
+			width: 100%;
+			div{
+				background-image:url('images/image-product-mobile.jpg');
+				background-size:cover;
+				padding: 50%;
+				border-radius:3% 3% 0 0 ;
+			}
+		}
+		.cardo-body{
+			padding: 1rem;
+			background-color:$white;
+			border-radius:0 0 3% 3%;
+			font-family: 'Montserrat', sans-serif;
+			.perfume{
+				letter-spacing: 0.3rem;
+				font-size: 0.8rem;
+			}
+			h1{
+				font-family: 'Fraunces', serif;
+				color: $very-dark-blue;
+			}
+			.precios{
+				display: flex;
+				justify-content: start;
+				align-items: center;
+				.precio{
+				font-family: 'Fraunces', serif;
+				color:$dark-cyan;
+				font-size: 2rem;
+				margin-right: 1rem;
+				}
+				.precio2{
+					text-decoration-line: line-through;
+				}
+			}
+			.btn-cart{
+				@include center;
+				margin-top: 1rem;
+				a{
+				text-decoration: none;
+				padding: 1rem 5rem;
+				border-radius:1rem;
+				background-color:$dark-cyan;
+				color: $white;
+					img{
+						margin-right: 1rem;
+						}
+					&:hover{
+						background-color:#1f4134;
+					}
+				}
+			}
+			
+		}
+	}
+}
+
+
+/*Media Querys*/
+@media (min-width: 768px) {
+	.container-fluid{
+		padding: 4rem;
+		.cardo-container{
+			@include center;
+			flex-direction: row;
+			background-color:$white;
+			border-radius:3% 3% 3% 3% ;
+			.cardo-img{
+				width: 50%;
+
+				div{
+					background-image:url('images/image-product-desktop.jpg');
+					background-size:cover;
+					padding: 50%;
+					border-radius:3% 0 0 3% ;
+				}
+			}
+			.cardo-body{
+				width: 50%;
+			}
+		}
+	}
+}

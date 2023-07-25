@@ -1,0 +1,28 @@
+lista de comandos basicos para git y github
+
+git config --global user.name <nombre de usuario> //permite configurar el usaurio global 
+git config --global email.name <email del usuario> //permite configurar el email del usuario global 
+git init // inicializa el repositorio
+git status  //indica el estado del repositorio
+git add . //agrega los archivos o cambios
+git rm --cached <archivo> //saca el archivo del stage 
+git commit -m "mensaje del commit"  //agregar los cambios al estado de commit 
+git log   //permite ver el registro de cambios (presiona q para salir)
+git log  -p  //muestra el registro en una sola linea 
+git reset --soft HEAD~1   //elimina el ultimo registro 
+git branch <nombre de la rama>  //crea una nueva rama
+git branch   //muestra las ramas existentes 
+git checkout <nombre de la rama >  //cambia de rama 
+git checkout -b <nombre de la rama> //crea una rama y cambia a la misma 
+git branch -m <nonbre de la rama>  //cambia el nombre de la rama 
+git branch -m <rama> <rama>   //cambia sin entrar a la rama 
+git branch -d <nombre de la rama >   //borra la rama y aplica solo en local 
+git merge --continue   //continua con la fusion 
+git merge --abort     //abort ala fusion 
+git clone <ruta del repositorio>   //clona un repositorio remoto 
+git remote -v  //muesta los repositorios remotos 
+git push origin main  //envia cambios al repositorio remoto 
+git pull origin main   //trae los cambios desde el repositorio remoto 
+git fetch origin main    //verifica si existen cambios en el repositorio remoto 
+git remote add origin <ruta del repositorio >    //agrega un repositorio remoto 
+

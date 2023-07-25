@@ -1,0 +1,138 @@
+/**barra navegacion**/
+.navbar{
+  padding: 2rem;
+  background: #d0d0d5;
+}
+
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}
+
+/**Estilos generales**/
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-oscura{
+  background: #1b1b32;
+  color: white;
+}
+
+.seccion-clara{
+  color: black;
+  background: white;
+}
+
+.seccion-titulo{
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-texto{
+  font-size: 1.2rem;
+}
+
+/**seccion hero**/
+.hero{
+  background: #d0d0d5;
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal{
+  padding: 3rem;
+}
+
+.hero-principal h2{
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+.hero-imagen-desarrollador{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/*seccion sobre mi*/
+.sobre-mi{
+  height: 500px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor{
+  max-width: 600px;
+  text-align: center;
+}
+
+
+/*experiencia*/
+.experiencia{
+  padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna{
+  padding: 20px;
+  border: 2px solid #8080804d;
+}
+
+.experiencia i{
+  font-size: 2.5rem;
+  color: #7ade30;
+  background: #0a0a23;
+  padding: 8px 9px;
+  border-radius: 50%;
+}
+
+.experiencia-titulo{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge{
+  margin: 3px;
+}
+
+
+
+
+/**media query**/
+@media screen and (max-width: 767px){
+  .navbar-brand{
+    display: none;
+  }
+  
+  .hero-inferior-imagen{
+    width: auto;
+    height: 5rem;
+  }
+
+  .sobre-mi{
+    padding-top: 15rem;
+  }
+
+}
+
+@media screen and (min-width: 700px){
+  .hero-inferior-imagen{
+    max-width: 600px;
+  }
+}

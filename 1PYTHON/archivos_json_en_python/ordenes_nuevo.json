@@ -1,0 +1,22 @@
+{
+    "ordenes": [
+        {
+            "tamano": "mediana",
+            "precio": 15.67,
+            "toppings": [
+                "champinones",
+                "pepperoni",
+                "albahaca"
+            ],
+            "queso_extra": false,
+            "delivery": true
+        },
+        {
+            "tamano": "pequena",
+            "precio": 6.54,
+            "toppings": null,
+            "queso_extra": true,
+            "delivery": false
+        }
+    ]
+}

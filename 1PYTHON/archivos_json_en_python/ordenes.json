@@ -1,0 +1,28 @@
+{
+	"ordenes": [ 
+		{
+			"tamano": "mediana",
+			"precio": 15.67,
+			"toppings": ["champinones", "pepperoni", "albahaca"],
+			"queso_extra": false,
+			"delivery": true,
+			"cliente": {
+				"nombre": "Jane Doe",
+				"telefono": null,
+				"correo": "janedoe@email.com"
+			}
+		},
+		{
+			"tamano": "pequena",
+			"precio": 6.54,
+			"toppings": null,
+			"queso_extra": true,
+			"delivery": false,
+			"cliente": {
+				"nombre": "Foo Jones",
+				"telefono": "556-342-452",
+				"correo": null
+			}
+		}
+	]
+}

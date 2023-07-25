@@ -1,0 +1,20 @@
+.contador{
+    min-width: 300px;
+    height: 300px;
+    font-size:160px;
+    padding-bottom:25px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border: 8px solid white;
+    margin-bottom:15px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .contador{ 
+        height: auto;
+        width: 10%;
+    }
+}

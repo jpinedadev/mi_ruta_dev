@@ -1,0 +1,35 @@
+body{
+  font-family:'Monserat',sans-serif;
+  text-align:center;
+}
+
+button{
+  padding:5px;
+  margin:5px 3px 12px;
+  outline:none;
+  cursor:pointer;
+  border-radius:5px;
+  border:1px solid #1162ac;
+  background-color:#1162ac;
+  color:#fff;
+}
+button:hover{
+  cursor:pointer;
+}
+
+#imagen{
+  margin:auto;
+  width:300px;
+  height:300px;
+  overflow:hidden;
+}
+
+#imagen img{
+  width:100%;
+  box-sizing:border-box;
+  padding:30px;
+}
+
+
+
+

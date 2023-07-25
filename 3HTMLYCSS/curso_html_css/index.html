@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Primera clase</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="estilos.css" rel="stylesheet">
+  </head>
+  <body>
+    <h2>AppDeGatos</h2>
+    <main>
+      <h3>Imágenes de Gatos:</h3>
+      <!--TODO: agregar enlace a imagenes de gatos -->
+      <a href="#parrafo">Parrafo</a>
+      <p>Haz click para ver mas <a href="index.html" target="_blank">imagenes de gatos</a>.</p>
+      <a href="index.html" target="_blank">
+        <img src="https://bit.ly/fcc-relaxing-cat" alt="imagen de gato">
+      </a>
+      <p id="parrafo">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
+      <hr>
+      <div> 
+      <!--LISTAS-->
+        <h3>Listas de Gatos</h3>
+        <p>Cosas que los gatos <em>aman</em>:</p>
+        <ul class="lista-de-gatos">
+          <li>Menta gatuna</li>
+          <li>Apuntadores laser</li>
+          <li><s>Lasaña</s></li>
+        </ul>
+        <img src="imagenes/lasana.jpg" alt="imagen de lassaña">
+        <p>Cosas que los gatos <strong>odian</strong>:</p>
+           <ol class="lista-de-gatos">
+            <li>Tratamientos antipulgas</li>
+            <li>Truenos</li>
+            <li>Otros gatos</li>
+          </ol>
+      </div>
+      <img src="imagenes/gatos.jpg" alt="imagen de gatos">
+      <!---FORMULARIO-->
+      <form action="/enviar-respuesta">
+        <!--BOTONES DE RADIO-->
+        <label for="interior">
+          <input id="interior" type="radio" name="interior-exterior" value="interior" checked>Interior
+        </label><br>
+        <label for="exterior">
+          <input id="exterior" type="radio" name="interior-exterior" value="exterior">Exterior
+        </label><br>
+        <!--BOTONES DE VERIFICACION-->
+        <label for="carinoso">
+          <input id="carinoso" type="checkbox" name="personalidad" value="carinoso" checked>Cariñoso
+        </label><br>
+        <label for="peresozo">
+          <input id="peresozo" type="checkbox" name="personalidad" value="peresozo">Peresozo
+        </label><br>
+        <label for="energico">
+          <input id="energico" type="checkbox" name="personalidad" value="energico">Enérgico
+        </label><br>
+        <!--TEXTO Y BOTON DE ENVIAR-->
+        <input type="text" placeholder="url de la foto de tu gato" required><br>
+        <button type="submit">Enviar</button><br>
+      </form>
+    </main>
+    <footer>
+      <p><small>Sin derechos de autor - <a href="#" target="_blank">Web de gatos</a></small></p>
+    </footer>
+  </body>
+</html>

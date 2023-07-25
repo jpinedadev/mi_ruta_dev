@@ -1,0 +1,105 @@
+/*---Fonts---*/
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+/*
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+/*---Colors---*/
+.container-fluid {
+  background-color: hsl(30deg, 38%, 92%);
+  padding: 1rem;
+  color: hsl(228deg, 12%, 48%);
+}
+.container-fluid .cardo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+}
+.container-fluid .cardo-container .cardo-img {
+  margin: 0;
+  width: 100%;
+}
+.container-fluid .cardo-container .cardo-img div {
+  background-image: url("images/image-product-mobile.jpg");
+  background-size: cover;
+  padding: 50%;
+  border-radius: 3% 3% 0 0;
+}
+.container-fluid .cardo-container .cardo-body {
+  padding: 1rem;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 0 0 3% 3%;
+  font-family: "Montserrat", sans-serif;
+}
+.container-fluid .cardo-container .cardo-body .perfume {
+  letter-spacing: 0.3rem;
+  font-size: 0.8rem;
+}
+.container-fluid .cardo-container .cardo-body h1 {
+  font-family: "Fraunces", serif;
+  color: hsl(212deg, 21%, 14%);
+}
+.container-fluid .cardo-container .cardo-body .precios {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.container-fluid .cardo-container .cardo-body .precios .precio {
+  font-family: "Fraunces", serif;
+  color: hsl(158deg, 36%, 37%);
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.container-fluid .cardo-container .cardo-body .precios .precio2 {
+  text-decoration-line: line-through;
+}
+.container-fluid .cardo-container .cardo-body .btn-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.container-fluid .cardo-container .cardo-body .btn-cart a {
+  text-decoration: none;
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+  background-color: hsl(158deg, 36%, 37%);
+  color: hsl(0deg, 0%, 100%);
+}
+.container-fluid .cardo-container .cardo-body .btn-cart a img {
+  margin-right: 1rem;
+}
+.container-fluid .cardo-container .cardo-body .btn-cart a:hover {
+  background-color: #1f4134;
+}
+
+/*Media Querys*/
+@media (min-width: 768px) {
+  .container-fluid {
+    padding: 4rem;
+  }
+  .container-fluid .cardo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: hsl(0deg, 0%, 100%);
+    border-radius: 3% 3% 3% 3%;
+  }
+  .container-fluid .cardo-container .cardo-img {
+    width: 50%;
+  }
+  .container-fluid .cardo-container .cardo-img div {
+    background-image: url("images/image-product-desktop.jpg");
+    background-size: cover;
+    padding: 50%;
+    border-radius: 3% 0 0 3%;
+  }
+  .container-fluid .cardo-container .cardo-body {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

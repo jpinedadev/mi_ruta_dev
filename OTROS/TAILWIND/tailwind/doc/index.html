@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Aprendiendo Tailwind CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!---Welcome to tailwind-->
+      <h1 class="text-center text-xl m-4">Hola Tailwind!!</h1>
+
+      <!--ChitChat-->
+      <div id="chitchat" class="
+               p-6 max-w-sm mx-auto bg-white rounded-xl
+               shadow-lg flex items-center space-x-4
+        ">
+        <div id="logo" class="shrink-0">
+          <img class="h-12 w-auto" src="images/discord.png" alt="Discord">
+        </div>
+        <div id="texto">
+          <div class="text-xl text-medium text-black">
+            ChitChat
+          </div>
+          <p class="text-slate-500">you have a new message!</p>
+        </div>
+      </div>
+     <br><br>
+      <!--Erin Lindford -->
+      <div class="
+           py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 
+           sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6
+        ">
+        <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="images/pfp2.jpg" alt="pfp">
+        <div class="text-center space-y-2 sm:text-left">
+          <div class="space-y-0.5">
+            <p class="text-lg font-semibold text-black">Erin Lindford</p>
+            <p class="text-slate-500 font-medium">Product Engineer</p>
+          </div>
+          <button class="
+                         px-4 py-1 text-sm text-purple-600 font-semibold
+                         rounded-full border border-purple-200
+                         hover:text-white hover:bg-purple-600
+                         hover:border-transparent focus:outline-none
+                         focus:ring-2 focus:ring-purple-600
+                         focus:ring-offset-2
+            ">Message</button>
+        </div>
+      </div>
+      <!--Handling Hover, Focus, and Other States-->
+      <br><br>
+      <div class="text-center">
+        <button class="
+          bg-sky-500 hover:bg-sky-700 rounded-full text-white
+          px-4 py-2 font-medium
+          ">Save changes</button>
+      </div>
+      <br><br>
+      <div class="text-center mx-auto w-80">
+        <ul role="list" class="divide-slate-200 py-2 divide-y text-center">
+          <li class="py-4 flex">
+             <img class="rounded-full h-10 w-10" src="images/pfp3.jpg" alt="pfp">
+             <div class="ml-3 overflow-hidden text-left">
+              <p class="text-sm font-medium text-slate-900">Ted Fox</p>
+              <p class="text-sm font-slate-500 truncate">ted.fox@example.com</p>
+             </div>
+          </li>
+          <li class="py-4 flex">
+             <img class="rounded-full h-10 w-10" src="images/pfp2.jpg" alt="pfp">
+             <div class="ml-3 overflow-hidden text-left">
+              <p class="text-sm font-medium text-slate-900">Courtney Henry</p>
+              <p class="text-sm font-slate-500 truncate">courtney.henry@example.com</p>
+             </div>
+          <li class="py-4 flex">
+             <img class="rounded-full h-10 w-10" src="images/pfp1.jpg" alt="pfp">
+             <div class="ml-3 overflow-hidden text-left">
+              <p class="text-sm font-medium text-slate-900">Floyd Miles</p>
+              <p class="text-sm font-slate-500 truncate">floyd.miles@example.com</p>
+             </div>
+          </li>
+        </ul>
+      </div>
+       <br><br>
+      <div class="text-center w-90">
+        <table>
+          <tbody>
+            <tr class="bg-slate-50 border">
+              <td class="px-3">Nombre</td>
+              <td class="px-3">Titulo</td>
+              <td class="px-3">Email</td>
+            </tr>
+            <tr class="bg-white border text-left">
+              <td class="px-3">Jane Cooper</td>
+              <td class="px-3">Regional Paradigm Technician</td>
+              <td class="px-3">jane.cooper@example.com</td>
+            </tr>
+            <tr class="bg-white border text-left">
+              <td class="px-3">Cody Fisher</td>
+              <td class="px-3">Product Directives Officer</td>
+              <td class="px-3">cody.fisher@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+  </body>
+</html>

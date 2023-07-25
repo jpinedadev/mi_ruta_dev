@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tailwind bluuweb</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+   <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="contaniner mx-auto mt-5 text-center">
+     <div class="grid grid-cols-3 gap-4 my-2">
+       <div class="bg-red-400">A</div>
+       <div class="bg-red-400">A</div>
+       <div class="bg-red-400">A</div>
+       <div class="bg-red-400">A</div>
+     </div>
+
+     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 my-2">
+       <div class="bg-blue-400">A</div>
+       <div class="bg-blue-400">A</div>
+       <div class="bg-blue-400">A</div>
+       <div class="bg-blue-400">A</div>
+     </div>
+
+     <div class="grid grid-cols-4 gap-4 my-2">
+       <div class="bg-pink-400 col-span-2">B</div>
+       <div class="bg-pink-400">A</div>
+       <div class="bg-pink-400">A</div>
+       <div class="bg-pink-400 col-span-4">C</div>
+     </div>
+
+
+<!-- 12 columnas -->
+    <div class="grid grid-cols-12 gap-2 my-2">
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">A</div>
+    </div>
+
+    <!-- parecido a bootstrap 4 -->
+    <div class="grid grid-cols-12 gap-2 my-2">
+        <div class="bg-pink-800 col-span-3">A</div>
+        <div class="bg-pink-800 col-span-3">A</div>
+        <div class="bg-pink-800 col-span-3">A</div>
+        <div class="bg-pink-800 col-span-3">A</div>
+    </div>
+
+    <!-- ejemplo col-span -->
+    <div class="grid grid-cols-3 gap-2 my-2">
+        <div class="bg-blue-500 col-span-3">A</div>
+        <div class="bg-blue-500 col-span-2">A</div>
+        <div class="bg-blue-500 col-span-1">A</div>
+        <div class="bg-blue-500 col-span-3">A</div>
+    </div>
+
+    <!-- ejemplo col-start -->
+    <div class="grid grid-cols-3 gap-2 my-2">
+        <div class="bg-green-500 col-start-1 col-span-1">A</div>
+        <div class="bg-green-500 col-start-1 col-span-3">B</div>
+        <div class="bg-green-500 col-span-1">A</div>
+        <div class="bg-green-500 col-span-3">A</div>
+    </div>
+
+    <!-- ejemplo col-end -->
+    <div class="grid grid-cols-3 gap-2 my-2">
+        <div class="bg-orange-500 col-end-4 col-span-1">A</div>
+        <div class="bg-orange-500 col-start-1 col-span-3">B</div>
+        <div class="bg-orange-500 col-span-1">A</div>
+        <div class="bg-orange-500 col-span-3">A</div>
+    </div>
+
+<div class="grid grid-rows-3 grid-cols-3 gap-2">
+    <div class="bg-orange-400 row-span-3">B</div>
+    <div class="bg-orange-400 col-span-2">C</div>
+    <div class="bg-orange-400 col-span-2">D</div>
+    <div class="bg-orange-400 col-span-2">E</div>
+</div>
+  </body>
+</html>

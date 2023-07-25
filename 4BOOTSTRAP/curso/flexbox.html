@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>flexbox</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+<!--Bootstrap 5.3.0-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+      .p-2, .item{
+        background: red;
+        color: white;
+        padding: 50px;
+        margin: 5px;
+        border: 1px solid white;
+      }
+    </style>
+
+  </head>
+  <body class="container">
+    
+    <!---Flexbox-->
+    <!--flex-direction-->
+<div class="d-flex flex-row mb-3">
+  <div class="p-2">Flex row 1</div>
+  <div class="p-2">Flex row 2</div>
+  <div class="p-2">Flex row 3</div>
+</div>
+<div class="d-flex flex-row-reverse">
+  <div class="p-2">Flex row-reverse 1</div>
+  <div class="p-2">Flex row-reverse 2</div>
+  <div class="p-2">Flex row-reverse 3</div>
+</div>
+
+<div class="d-flex flex-column mb-3">
+  <div class="p-2">Flex column 1</div>
+  <div class="p-2">Flex column 2</div>
+  <div class="p-2">Flex column 3</div>
+</div>
+<div class="d-flex flex-column-reverse">
+  <div class="p-2">Flex column-reverse 1</div>
+  <div class="p-2">Flex column-reverse 2</div>
+  <div class="p-2">Flex column-reverse 3</div>
+</div>
+    
+    <!--Justify-content-->
+<div class="item d-flex justify-content-start">justify-content-start</div>
+<div class="item d-flex justify-content-end">justify-content-end</div>
+<div class="item d-flex justify-content-center">justify-content-center</div>
+<div class="item d-flex justify-content-between">justify-content-between</div>
+<div class="item d-flex justify-content-around">justify-content-around</div>
+<div class="item d-flex justify-content-evenly">justify-content-evenly</div>
+
+
+
+  <!--Bootstrap 5.3.0-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  </body>
+</html>
