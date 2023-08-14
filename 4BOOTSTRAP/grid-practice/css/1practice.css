@@ -1,0 +1,26 @@
+body{
+  background:red;
+}
+
+.container{
+  margin-top:3rem;
+}
+
+.my_header, .my_footer{
+  background:#98d1c7;
+  color:white;
+  padding:1rem;
+}
+
+.my_gallery{
+  background:#fa7a7c;
+  color:white;
+  padding:1rem;
+}
+
+.my_image{
+  background:white;
+  color:black;
+  padding:2rem;
+  margin:0.5rem 0.5rem;
+}

@@ -1,0 +1,31 @@
+body{
+  background:#ffe981;
+}
+
+.container{
+  margin-top:3rem;
+  background:#ffe981;
+}
+
+
+.my_header{
+  background:#83b2ff;
+  color:white;
+  height:10rem;
+}
+
+.item1, .item3{
+  background:#ff555e;
+  height:10rem;
+}
+
+.item2{
+  background:#8bf18b;
+  height:10rem;
+}
+
+.my_footer{
+  background:#ff8650;
+  color:white;
+  height:10rem;
+}
