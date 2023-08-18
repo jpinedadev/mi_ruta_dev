@@ -7,13 +7,39 @@
     <link href="css/3practice.css" rel="stylesheet">
     <link href="bootstrap-5.3.1/css/bootstrap.min.css" rel="stylesheet"/>
   </head>
-  <body>
-    <h1 class="text-center">Bootstrap grid practice</h1>
+  <body class="body">
     
-    <div class="container">
-      <div class="row">   
-        <h1>header</h1>
+    <div class="container text-center">
+
+      <header class="row header">   
+        <h1>HEADER</h1>
+      </header>
+
+      <div class="row contenedor d-flex justify-content-between gap-4">
+        <aside class="col-xs col-lg flex-grow aside">
+          <h2>ASIDE</h2>
+        </aside>
+
+        <article class="col-xs col-lg-8 article">
+          <h2>ARTICLE</h2>
+          <div class="article__image d-flex gap-4 flex-column flex-md-row">
+            <div>
+              <img src="images/image.jpg" class="img-fluid article__image--h">
+            </div>
+            <div>
+              <img src="images/image.jpg" class="img-fluid article__image--h">
+            </div>
+            <div>
+              <img src="images/image.jpg" class="img-fluid article__image--h">
+            </div>
+          </div>
+        </article>       
       </div>
+
+      <footer class="row footer">
+        <h2>FOOTER</h2>
+      </footer>
+
     </div>
     
   </body>

@@ -1,0 +1,36 @@
+.body{
+  background-color: #d4d4d4;
+}
+
+.my__nav{
+  background-color: #a4ffe9;
+}
+
+.aside{
+  background-color: #1cfffe;
+}
+
+.my__main{
+  background-color: #81fffe;
+  padding-bottom: 10rem;
+}
+
+.content__box--one{
+  background-color: #6dffcd;
+  padding-bottom: 8rem;
+}
+
+.content__box--two{
+  background-color: #60ffd8;
+  padding-bottom: 8rem;
+}
+
+.content__box--three{
+  background-color: #6fffb2;
+  padding-bottom: 8rem;
+}
+
+.footer{
+  background-color: #18efa3;
+  padding-bottom: 3rem;
+}

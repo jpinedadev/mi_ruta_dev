@@ -1,0 +1,43 @@
+:root{
+  --color__text:white;
+}
+
+.body{
+  background-color: #ffafb0;
+  color: var(--color__text);
+}
+
+.container{
+  padding: 3rem;
+}
+
+.header{
+  margin-bottom: 2rem;
+}
+
+.header, .footer{
+  background: #96d1c7;
+  padding: 1rem;
+}
+
+.contenedor{
+  margin-bottom: 2rem;
+}
+
+.aside{
+  background: #5eb7b7;
+}
+
+.article{
+  background: #fc7978;
+  padding-top: 10rem;
+}
+
+.article__image{
+  margin: 1rem;
+}
+
+.article__image--h{
+  height: 13rem;
+  width: auto;
+}
